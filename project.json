@@ -1,0 +1,43 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions", "box2d", "external"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/KHBase/KHBaseLayer.js",
+        "src/KHBase/KHTouchHandler.js",
+        "src/KHContactListener/KHContactListener.js",
+        "src/KHUIComponent/KHButton.js",
+        "src/KHUIComponent/KHSprite.js",
+        "src/KHBoard/KHBoard.js",
+        "src/KHKnifes/KHKnife.js",
+        "src/KHUtility/KHConstant.js",
+        "src/KHUtility/KHUtility.js",
+        "src/KHGameController/KHGameLayer.js",
+        "src/KHPhysicsBody/KHCircleBody.js",
+        "src/KHPhysicsBody/KHBoxBody.js",
+        "src/KHHomeScreen/HomeLayer.js",
+        "src/KHParticleEffect/KHParticleEffect.js",
+        "src/KHGameManager/KHGameController.js",
+        "src/KHScore/KHScoreLayer.js",
+        "src/KHSound/KHSound.js",
+        "src/KHKnifes/KHAttachedKnife.js",
+        "src/KHKnifes/KHAvailableKnifeLayer.js",
+        "src/KHKnifes/KHKnifeSelectionLayer.js",
+        "src/KHGameManager/KHGamePauseLayer.js",
+        "src/KHGameManager/KHLevelController.js",
+        "src/KHBoard/KHDummyBrokenBoard.js",
+        "src/KHBoard/KHApple.js"
+
+    ]
+}

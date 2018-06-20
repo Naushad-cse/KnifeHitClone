@@ -1,0 +1,46 @@
+var res = {
+    HelloWorld_png              : "res/HelloWorld.png",
+    BackGround_png              : "res/Common/backGround.png",
+    Knife_png                   : "res/knife/knife.png",
+    SelectedKnife_png           : "res/knife/knife.png",
+    Target_png                  : "res/Board/target.png",
+    TargetEffect_png            : "res/Board/targetEffect.png",
+    TargetEffect_Plist          : "res/Board/hittingEffect.plist",
+    RestartButton_png           : "res/Common/restart.png",
+    PlayButton_png              : "res/HomeScene/playButton.png",
+    SoundEnable_png             : "res/HomeScene/soundEnable.png",
+    SoundDisable_png            : "res/HomeScene/soundDisable.png",
+    KnifeSelector_png           : "res/HomeScene/knifeSelector.png",
+    Apple_png                   : "res/Apple/apple.png",
+    LeftCuttedApple_png         : "res/Apple/leftApple.png",
+    RightCuttedApple_png         : "res/Apple/rightApple.png",
+    Pause_png                   : "res/Common/pause.png",
+    RePlay_png                  : "res/Common/replayButton.png",
+    Home_png                    : "res/Common/homeButton.png",
+    TargetBottomLeft_png        : "res/Board/targetCuttedHalf.png",
+    TargetBottomRight_png       : "res/Board/targetSmall.png",
+    TargetTopLeft_png           : "res/Board/targetCuttedHalf.png",
+    TargetTopRight_png          : "res/Board/targetSmall.png",
+    KnifeBackground_png         : "res/Knife/knifeBack.png",
+    KnifeLock_1_png             : "res/Knife/knifeLock_1.png",
+    KnifeLock_2_png             : "res/Knife/knifeLock_2.png",
+    KnifeLock_3_png             : "res/Knife/knifeLock_3.png",
+    KnifeLock_4_png             : "res/Knife/knifeLock_4.png",
+    KnifeLock_5_png             : "res/Knife/knifeLock_5.png",
+    KnifeLock_6_png             : "res/Knife/knifeLock_6.png",
+    KnifeLock_7_png             : "res/Knife/knifeLock_7.png",
+    KnifeLock_8_png             : "res/Knife/knifeLock_8.png",
+    KnifeLock_9_png             : "res/Knife/knifeLock_9.png",
+    KnifeLock_10_png            : "res/Knife/knifeLock_10.png",
+    YellowKnife_png             : "res/Knife/yellowKnife.png",
+    GrayKnife_png               : "res/Knife/grayKnife.png",
+    SelectedKnife_png           : "res/Knife/selectedKnife.png",
+    SelectedButton_png          : "res/Knife/selectedButton.png",
+    AttachedKnife_png           : "res/Knife/attachedKnife.png",
+    DynoRegular_Font             : "res/Font/DynoRegular.ttf"
+};
+
+var gx_resources = [];
+for (var i in res) {
+    gx_resources.push(res[i]);
+}
